@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt 
+name: Build OpenWrt
 
 on:
   repository_dispatch:
@@ -53,14 +53,7 @@ jobs:
         sudo timedatectl set-timezone "$TZ"
         sudo mkdir -p /workdir
         sudo chown $USER:$GROUPS /workdir
-        
-    - name: OpenClash
-      run: |
-        cd package
-        mkdir openwrt-packages
-        cd openwrt-packages
-        git clone https://github.com/vernesong/OpenClash.git
-      
+
     - name: Clone source code
       working-directory: /workdir
       run: |
