@@ -75,7 +75,7 @@ jobs:
       run: cd openwrt && ./scripts/feeds install -a
       
     - name: Delete Old Argon
-      working-directory: ./workdir/openwrt/package
+      working-directory: ./openwrt/package
       run: |
         rm -rf lean/luci-theme-argon
         
@@ -87,7 +87,7 @@ jobs:
         
  
     - name: Import external feeds
-      working-directory: ./workdir/openwrt
+      working-directory: ./openwrt
       run: |
         git clone https://github.com/xiaorouji/openwrt-passwall.git package/lienol
         git clone https://github.com/vernesong/OpenClash.git package/OpenClash
