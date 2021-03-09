@@ -94,6 +94,7 @@ jobs:
         git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
         git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
         git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+        git clone https://github.com/super27035/luci-lib-docker.git package/luci-lib-docker
 
     - name: Load custom configuration
       run: |
