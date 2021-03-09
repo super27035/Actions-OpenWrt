@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build Lede OpenWrt Finnal
+name: Build Lede OpenWrt Final
 
 on:
   repository_dispatch:
