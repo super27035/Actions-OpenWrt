@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build Lieonl main OpenWrt
+name: Build Lieonl main OpenWrt Final
 
 on:
   repository_dispatch:
