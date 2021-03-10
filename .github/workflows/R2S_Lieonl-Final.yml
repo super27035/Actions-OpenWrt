@@ -75,7 +75,6 @@ jobs:
       working-directory: ./openwrt/package
       run: |
         rm -rf lean/luci-theme-argon
-        rm -rf luci-theme-argon
         
     #- name: Delete Old Argon
     #  run: |
