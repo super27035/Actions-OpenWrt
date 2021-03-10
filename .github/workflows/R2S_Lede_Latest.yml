@@ -24,8 +24,8 @@ env:
   REPO_BRANCH: super
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: lede_latest.config
-  DIY_P1_SH: diy-part1.sh
-  DIY_P2_SH: diy-part2.sh
+  DIY_P1_SH: r2s_diy_part1_latest.sh
+  DIY_P2_SH: r2s_diy_part2_latest.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
