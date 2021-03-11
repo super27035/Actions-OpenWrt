@@ -20,8 +20,8 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/super27035/ledenew.git
-  REPO_BRANCH: super
+  REPO_URL: https://github.com/super27035/lede.git
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: lede_latest.config
   DIY_P1_SH: r2s_diy_part1_latest.sh
